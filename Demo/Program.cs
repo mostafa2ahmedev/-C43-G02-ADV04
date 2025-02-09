@@ -34,8 +34,21 @@ namespace Demo
     //    public override string ToString() {
     //        return $"Id : {Id}, Name : {Name}, Salary : {Salary}";
     //    }
+
+
+
+    //class Movie : IEquatable<Movie> { 
     
-    }
+    
+    //public int Code { get; set; }
+    //    public string Title { get; set; }
+    //    public decimal Price { get; set; }
+
+    //    public bool Equals(Movie? other)
+        
+    //  => other != null && Code == other.Code && Title == other.Title && Price == other.Price;
+        
+    //}
     internal class Program
     {
 
@@ -118,6 +131,41 @@ namespace Demo
             //employees.Add(new Employee() { Id = 10, Name = "Ahmed", Salary = 5_000 },null);
             #endregion
 
+
+            #region HashSet
+
+
+            //HashSet<int> set = new HashSet<int>();
+
+            //set.Add(1);
+            //set.Add(2);
+            //set.Add(3);
+            //set.Add(4);
+            //set.Add(1);
+            //set.Add(2);
+
+            //foreach (var item in set)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //HashSet<Movie> movies=  new HashSet<Movie>();
+
+            //movies.Add(new Movie() { Code = 10, Title = "Titanic" , Price= 100});
+            //movies.Add(new Movie() { Code = 20, Title = "NTitanic" , Price= 100});
+            //movies.Add(new Movie() { Code = 10, Title = "TTitanic" , Price= 100});
+            //movies.Add(new Movie() { Code = 10, Title = "Titanic" , Price= 100});
+            //movies.Add(new Movie() { Code = 10, Title = "Titanic" , Price= 100});
+
+
+            //foreach (var item in movies)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
+
     }
 }
